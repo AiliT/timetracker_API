@@ -2,6 +2,9 @@ syntax: glob
 
 ### VisualStudio ###
 
+# local database
+*.db
+
 # Tool Runtime Dir
 # note: there is no trailing slash so if these are symlinks (which are seen as files,
 #       instead of directories), git will still ignore them.
